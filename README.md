@@ -49,9 +49,10 @@ Check out our [forum](https://community.cisco.com/t5/custom/page/page-id/customF
 
 #### Open A Case
 * To open a case by web: http://www.cisco.com/c/en/us/support/index.html
-* To open a case by email: tac@cisco.com
+* To open a case by email: tac@cisco.com 
 * For phone support: 1-800-553-2447 (U.S.)
 * For worldwide support numbers: www.cisco.com/en/US/partner/support/tsd_cisco_worldwide_contacts.html
+* *If you don't have a Cisco service contract, send an email to swatchc-support@cisco.com describing your problem.*
 
 ## Getting involved
 Contributions to this code are welcome and appreciated. See [CONTRIBUTING](CONTRIBUTING.md) for details. Please adhere to our [Code of Conduct](CODE_OF_CONDUCT.md) at all times.
