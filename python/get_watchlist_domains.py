@@ -13,7 +13,7 @@ Script Dependencies:
 Depencency Installation:
     $ pip install requests
 
-Copyright (c) 2019, Cisco Systems, Inc. All rights reserved.
+Copyright (c) 2020, Cisco Systems, Inc. All rights reserved.
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
@@ -33,22 +33,22 @@ SOFTWARE.
 
 import requests
 import json
+import configparser
 try:
     requests.packages.urllib3.disable_warnings()
 except:
     pass
 
 
-# Enter all authentication info
-PORTAL_URL = ""
-API_USER = ""
-API_KEY = ""
+# Read the config file
+config = configparser.ConfigParser()
+config.read("env.conf")
 
 # Set the URL
-url = "https://" + PORTAL_URL + "/api/v3/watchlist/domains/"
+url = "https://" + config["StealthwatchCloud"]["PORTAL_URL"] + "/api/v3/watchlist/domains/"
 
 # Set the authorization string
-authorization = "ApiKey " + API_USER + ":" + API_KEY
+authorization = "ApiKey " + config["StealthwatchCloud"]["API_USER"] + ":" + config["StealthwatchCloud"]["API_KEY"]
 
 # Create the request headers with authorization
 request_headers = {
