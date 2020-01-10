@@ -12,10 +12,10 @@ For more information on the Stealthwatch Cloud REST API, please see the followin
 *Alternatively, advanced users can also use git to checkout / clone this project.*
 
 ## Configuration
-Open the desired `.py` file that you intend to run and enter the following values where specified:
-* `PORTAL_URL = ""`
-* `API_USER = ""`
-* `API_KEY = ""`
+Open the file `env.conf` and enter the following values where specified:
+* `PORTAL_URL`
+* `API_USER`
+* `API_KEY`
 
 *(Note: additional fields may also be required)*
 
