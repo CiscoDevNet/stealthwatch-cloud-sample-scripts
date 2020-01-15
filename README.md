@@ -1,6 +1,6 @@
 # Stealthwatch Cloud API Sample Scripts
 This repository contains sample Python scripts related to Cisco Stealthwatch Cloud APIs. It is available for use by the Cisco DevNet community through Code Exchange.
-For more information on the Stealthwatch Cloud REST API, please see the following link: https://developer.cisco.com/docs/stealthwatch-cloud
+For more information on the Stealthwatch Cloud REST API, please see the following link: https://developer.cisco.com/docs/stealthwatch/cloud
 
 ## Installation
 1. Ensure Python 3 is installed.
