@@ -55,7 +55,7 @@ authorization = "ApiKey " + config["StealthwatchCloud"]["API_USER"] + ":" + conf
 request_headers = {
     "Content-Type" : "application/json",
     "Accept" : "application/json",
-    "Authorization ": authorization
+    "Authorization" : authorization
 }
 
 # Set the timestamps for the filters, in the correct format, for last 60 minutes
